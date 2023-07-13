@@ -13,9 +13,7 @@ The 100 Days of Python Challenge is a self-paced learning program designed to as
 This repository is organized into different directories, each corresponding to a specific day of the challenge. Every day has its own folder labeled as `day-xx`, where `xx` represents the day number (e.g., `day-01`, `day-02`, etc.). Inside each day's folder, we will find the following:
 
 - **README.md**: A detailed description of the day's topic, exercises, and tasks.
-- **code**: A directory containing Python scripts or Jupyter Notebooks related to the day's activities.
-- **exercises**: A directory containing exercise files for the day's challenges.
-- **projects**: A directory dedicated to any project files or resources relevant to the day's project tasks.
+- **code**: files containing Python scripts or Jupyter Notebooks related to the day's activities.
 
 ## Getting Started
 
