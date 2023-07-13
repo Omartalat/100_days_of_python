@@ -19,7 +19,7 @@ def days_in_month(year, month):
     return # of days in the given month
     """
     month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-    if not year or not month:
+    if not year and not month:
         return
     if month == 2 and is_leap(year):
         return 29
