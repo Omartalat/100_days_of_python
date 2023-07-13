@@ -18,6 +18,8 @@ def days_in_month(year, month):
     """
     return # of days in the given month
     """
+    if month > 12 or month <= 0:
+        return "invalid Month"
     month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     if not year and not month:
         return
