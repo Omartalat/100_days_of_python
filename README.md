@@ -1,6 +1,6 @@
 # My 100 Days of Python Journey
 
-![Python Logo](python_logo.png)
+![image](https://github.com/Omartalat/100_days_of_python/assets/58723530/51a1e3d1-0314-46f0-8313-24fe953a061b)
 
 Welcome to my "100 Days of Python" journey repository! This repository will serve as a record of my progress as I embark on a personal challenge to learn Python programming over the course of 100 days. Whether you're joining me as a beginner or an experienced programmer, this challenge will help us both improve our Python skills, build practical projects, and deepen our understanding of the language.
 
