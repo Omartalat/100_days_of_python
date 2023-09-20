@@ -14,10 +14,10 @@ The List ```month_days``` contains the number of days in a month from January to
 
 # Exercise 2 - Calculator
 ## Instructions
-The code is a simple calculator program, which takes two numbers and performs the calculation as per the user's input. The program is designed using functions and dictionaries, so that it can be extended to add more operations in future.
-The program starts with a welcome message and asks for first number.
-Then the program asks for the operation to be performed on the first number.
-Then the program asks for the second number.
-Then the program performs the calculation and prints the result.
-Then the program asks the user if he wants to continue with the result as the first number.
-If the user answers yes, then the program continues with the result as the first number, otherwise the program starts again asking for the first number.
+1. The code is a simple calculator program, which takes two numbers and performs the calculation as per the user's input. The program is designed using functions and dictionaries, so that it can be extended to add more operations in future.
+2. The program starts with a welcome message and asks for first number.
+3. Then the program asks for the operation to be performed on the first number.
+4. Then the program asks for the second number.
+5. Then the program performs the calculation and prints the result.
+6. Then the program asks the user if he wants to continue with the result as the first number.
+7. If the user answers yes, then the program continues with the result as the first number, otherwise the program starts again asking for the first number.
