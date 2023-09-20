@@ -1,14 +1,12 @@
-#The code is a simple calculator program, which takes two numbers and performs the calculation as per the user's input. The program is designed using functions and dictionaries, so that it can be extended to add more operations in future.
-#The program starts with a welcome message and asks for first number.
-#Then the program asks for the operation to be performed on the first number.
-#Then the program asks for the second number.
-#Then the program performs the calculation and prints the result.
-#Then the program asks the user if he wants to continue with the result as the first number.
-#If the user answers yes, then the program continues with the result as the first number, otherwise the program starts again asking for the first number.
-
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
-Calculator Project
+The code is a simple calculator program, which takes two numbers and performs the calculation as per the user's input. The program is designed using functions and dictionaries, so that it can be extended to add more operations in future.
+The program starts with a welcome message and asks for first number.
+Then the program asks for the operation to be performed on the first number.
+Then the program asks for the second number.
+Then the program performs the calculation and prints the result.
+Then the program asks the user if he wants to continue with the result as the first number.
+If the user answers yes, then the program continues with the result as the first number, otherwise the program starts again asking for the first number.
 """
 from art import logo
 import os
