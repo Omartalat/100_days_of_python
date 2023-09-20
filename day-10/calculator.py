@@ -11,7 +11,14 @@
 Calculator Project
 """
 from art import logo
+import os
 
+
+def clear_terminal():
+    """
+    clear terminal screen
+    """
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 def add(a, b):
   """
@@ -62,6 +69,7 @@ def calculator():
             a = answer
         else:
             should_continue = False
+            clear_terminal()
             calculator()
 
 calculator()
