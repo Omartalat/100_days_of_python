@@ -1,8 +1,6 @@
 # Blackjack Project
 
-## Difficulty: Normal 😎
-
-### Our Blackjack House Rules
+## Our Blackjack House Rules
 - The deck is unlimited in size.
 - There are no jokers.
 - The Jack/Queen/King all count as 10.
@@ -11,7 +9,7 @@
 - Cards are not removed from the deck as they are drawn.
 - The computer is the dealer.
 
-### Hints
+## Hints
 1. Go to this [website](https://games.washingtonpost.com/games/blackjack/) and try out the Blackjack game.
 2. Read this [breakdown of program requirements](http://listmoz.com/view/6h34DJpvJBFVRlZfJvxF). Then try to create your own flowchart for the program.
 3. Download and read this [flowchart](https://drive.google.com/uc?export=download&id=1rDkiHCrhaf9eX7u7yjM1qwSuyEk-rPnt) I've created.
