@@ -43,7 +43,7 @@ def compare(user_score, computer_score):
   else:
     return "You lose 😤"
 
-deck = [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 11 ]
+deck = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 10, 10]
 
 player_answer = input("Do you want to play a game of Blackjack? Type 'y' or 'n': ")
 
@@ -54,11 +54,33 @@ while player_answer == "y":
     dealer_score = 0
     player_continue = "y"
     print(logo)
-    for i in range(2):
+    for _ in range(2):
         player_hand.append(choice(deck))
         dealer_hand.append(choice(deck))
     player_score= sum(player_hand)
     dealer_score = sum(dealer_hand)
+    
+    if player_score == 21 and 11 in player_hand:
+        player_hand.remove(11)
+        player_hand.append(1)
+        player_score = sum(player_hand)
+    
+    if dealer_score == 21 and 11 in dealer_hand:
+        dealer_hand.remove(11)
+        dealer_hand.append(1)
+        dealer_score = sum(dealer_hand)
+
+    if player_score == 21:
+        print(f"Your cards: {player_hand}, current score: {player_score}")
+        print(f"Computer's first card: {player_hand[0]}")
+        print("You win 😃")
+        player_answer = input("Do you want to play a game of Blackjack? Type 'y' or 'n': ")
+        clear_terminal()
+        continue
+
+    if dealer_score < 17:
+        dealer_hand.append(choice(deck))
+        dealer_score = sum(dealer_hand)
     print(f"Your cards: {player_hand}, current score: {player_score}")
     print(f"Computer's first card: {player_hand[0]}")
     player_continue =input("Type 'y' to get another card, type 'n' to pass: ")
