@@ -5,8 +5,7 @@ This is a simple number guessing game written in Python. The game generates a ra
 ## How to Run the Game
 
 1. Clone the repository to your local machine.
-2. Install the required dependencies by running `pip install -r requirements.txt`.
-3. Run the game by executing the `guess-the-number-start.py` file with Python 3.
+2. Run the game by executing the `guess-the-number-start.py` file with Python 3.
 
 ## Example Usage
 
@@ -59,8 +58,6 @@ This game requires the following Python modules:
 
 * `art`: for the ASCII art logo.
 * `random`: for generating random numbers.
-
-You can install them by running `pip install -r requirements.txt`.
 
 ## License
 
