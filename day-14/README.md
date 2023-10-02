@@ -50,6 +50,10 @@ The Higher-Lower game is a fun and addictive guessing game. In each round, the p
 
 - `game()`: The `game` function is the main simulation of the game. It initializes the score, randomly selects two celebrities, and loops through rounds of the game until the player decides to quit. It calls the `starter` and `compare` functions to manage each round of the game.
 
+## Author
+
+This coffee machine simulation was created by @Omartalat.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
