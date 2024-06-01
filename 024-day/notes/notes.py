@@ -16,4 +16,5 @@ example of opening files using python
 # with open("myfile.txt", mode="a") as f:
 #     f.write("\nnew line.")
 
+# x => create new file to write in.
 # if there is no file python will create it.
